@@ -1,0 +1,18 @@
+project:
+  type: book
+
+book:
+  title: "Inference vs Machine Learning"
+  author: "Caio Velasco"
+  date: today
+  chapters:
+    - index.qmd
+    - chapters/01_intro.qmd
+
+format:
+  html:
+    theme: cosmo
+    code-link: true
+    math: true
+
+output-dir: docs

@@ -1,0 +1,9 @@
+---
+title: "Inference vs Machine Learning"
+author: "Your Name"
+date: today
+---
+
+# Welcome
+
+This book explores the core differences between statistical inference and machine learning, guiding you from model-based thinking to prediction-driven approaches.
