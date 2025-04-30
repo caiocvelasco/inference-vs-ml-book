@@ -17,6 +17,7 @@ Thumbs.db
 
 # Quart
 /.quarto/
+.quarto/
 
 # Quarto output directories
 _site/
