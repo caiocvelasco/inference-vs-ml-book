@@ -1,0 +1,42 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Inference vs Machine Learning",
+    "section": "",
+    "text": "Welcome\nThis book explores the fundamental difference between inference and prediction — the core philosophies that drive statistical modeling and machine learning. It starts from the foundational building blocks of probabilistic reasoning and guides the reader through the conceptual and practical divide between explaining and forecasting.",
+    "crumbs": [
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "index.html#chapters-just-an-example---not-ready-yet",
+    "href": "index.html#chapters-just-an-example---not-ready-yet",
+    "title": "Inference vs Machine Learning",
+    "section": "Chapters (JUST AN EXAMPLE - NOT READY YET)",
+    "text": "Chapters (JUST AN EXAMPLE - NOT READY YET)\n\n1. Patterns Beneath the Noise — How Data Becomes Knowledge\n\nWhat does it mean to “model” reality?\nThe idea of chance regularities and stochastic mechanisms\nHow randomness becomes structure\nReal-world examples: modeling coin flips, prices, and temperatures\nBridge to ML: ML also finds patterns — but what kind?\n\n\n\n2. Statistical Models as Assumptions About Reality\n\nDistribution, independence, and homogeneity\nSampling vs the population\nBuilding a model from scratch (Spanos-style)\nML contrast: When does ML not care about data-generating processes?\n\n\n\n3. Estimation — Turning Data Into Parameters\n\nWhat is a parameter? Why estimate it?\nLikelihood and estimation principles\nMLE vs Method of Moments\nBias–variance tradeoff\nML contrast: Do neural networks estimate parameters?\n\n\n\n4. Inference — Measuring What We Know (and Don’t Know)\n\nConfidence intervals and hypothesis testing\nThe logic of uncertainty quantification\nFrequentist vs Bayesian views\nML contrast: What does “confidence” mean in a prediction model?\n\n\n\n5. Prediction — Learning Without Understanding\n\nWhat is a prediction function?\nThe goal: future observations, not parameters\nTraining, testing, generalization\nStatistical tension: When prediction fails to explain\n\n\n\n6. The Two Cultures — Revisiting Breiman\n\nBreiman’s paper: inference vs algorithmic modeling\nCase studies where the divide matters\nWhen should you infer? When should you predict?\n\n\n\n7. Putting It Together — Hybrid Models and Real Decisions\n\nCausal models, generative ML, post-modeling inference\nUsing models for decisions and uncertainty\nThe future: blending inference and prediction\n\n\n\nLatex Tests\n\\(p(\\theta | \\mathbf{y})\\)\n\\[\np(\\theta | \\mathbf{y})\n\\]",
+    "crumbs": [
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "chapters/01_ch01.html",
+    "href": "chapters/01_ch01.html",
+    "title": "Chapter 1: Inference vs. Prediction",
+    "section": "",
+    "text": "Motivation\nEvery data model is a guess at the truth. Some guess by assuming how data is generated. Others just try to predict what comes next.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Chapter 1: Inference vs. Prediction</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/01_ch01.html#references",
+    "href": "chapters/01_ch01.html#references",
+    "title": "Chapter 1: Inference vs. Prediction",
+    "section": "References",
+    "text": "References\n\n\n\n\n\nAthey, Susan, and Guido W Imbens. 2016. “Recursive Partitioning for Heterogeneous Causal Effects.” Proceedings of the National Academy of Sciences 113 (27): 7353–60.\n\n\nBreiman, Leo. 2001. “Statistical Modeling: The Two Cultures.” Statistical Science 16 (3): 199–231.\n\n\nHastie, Trevor, Robert Tibshirani, and Jerome Friedman. 2009. The Elements of Statistical Learning: Data Mining, Inference, and Prediction. 2nd ed. New York: Springer.\n\n\nJames, Gareth, Daniela Witten, Trevor Hastie, and Robert Tibshirani. 2021. An Introduction to Statistical Learning: With Applications in r. 2nd ed. New York: Springer.\n\n\nSpanos, Aris. 1999. Probability Theory and Statistical Inference: Econometric Modeling with Observational Data. Cambridge University Press.\n\n\n———. 2010. The Foundations of Statistical Inference: A Unified Approach. Cambridge University Press.\n\n\nVapnik, Vladimir N. 1999. “An Overview of Statistical Learning Theory.” IEEE Transactions on Neural Networks 10 (5): 988–99.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Chapter 1: Inference vs. Prediction</span>"
+    ]
+  }
+]
