@@ -1,9 +1,61 @@
 ---
-title: "Inference vs Machine Learning"
-author: "Your Name"
+author: "Caio Velasco"
 date: today
 ---
 
-# Welcome
+# Welcome {.unnumbered}
 
-This book explores the core differences between statistical inference and machine learning, guiding you from model-based thinking to prediction-driven approaches.
+This book explores the fundamental difference between **inference** and **prediction** — the core philosophies that drive **statistical modeling** and **machine learning**. It starts from the foundational building blocks of probabilistic reasoning and guides the reader through the conceptual and practical divide between explaining and forecasting.
+
+---
+
+## Chapters (JUST AN EXAMPLE - NOT READY YET)
+
+### 1. Patterns Beneath the Noise — How Data Becomes Knowledge
+- What does it mean to “model” reality?
+- The idea of chance regularities and stochastic mechanisms
+- How randomness becomes structure
+- Real-world examples: modeling coin flips, prices, and temperatures
+- *Bridge to ML:* ML also finds patterns — but what kind?
+
+### 2. Statistical Models as Assumptions About Reality
+- Distribution, independence, and homogeneity
+- Sampling vs the population
+- Building a model from scratch (Spanos-style)
+- *ML contrast:* When does ML *not* care about data-generating processes?
+
+### 3. Estimation — Turning Data Into Parameters
+- What is a parameter? Why estimate it?
+- Likelihood and estimation principles
+- MLE vs Method of Moments
+- Bias–variance tradeoff
+- *ML contrast:* Do neural networks estimate parameters?
+
+### 4. Inference — Measuring What We Know (and Don’t Know)
+- Confidence intervals and hypothesis testing
+- The logic of uncertainty quantification
+- Frequentist vs Bayesian views
+- *ML contrast:* What does “confidence” mean in a prediction model?
+
+### 5. Prediction — Learning Without Understanding
+- What is a prediction function?
+- The goal: future observations, not parameters
+- Training, testing, generalization
+- *Statistical tension:* When prediction fails to explain
+
+### 6. The Two Cultures — Revisiting Breiman
+- Breiman’s paper: inference vs algorithmic modeling
+- Case studies where the divide matters
+- *When should you infer? When should you predict?*
+
+### 7. Putting It Together — Hybrid Models and Real Decisions
+- Causal models, generative ML, post-modeling inference
+- Using models for decisions and uncertainty
+- *The future:* blending inference and prediction
+
+### Latex Tests
+$p(\theta | \mathbf{y})$
+
+$$
+p(\theta | \mathbf{y})
+$$

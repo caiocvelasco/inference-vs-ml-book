@@ -7,12 +7,17 @@ book:
   date: today
   chapters:
     - index.qmd
-    - chapters/01_intro.qmd
+    - chapters/01_ch01.qmd
+
+number-sections: false  # This disables numbering at chapter level
 
 format:
   html:
     theme: cosmo
     code-link: true
     math: true
+
+bibliography: references.bib
+citeproc: true
 
 output-dir: docs
