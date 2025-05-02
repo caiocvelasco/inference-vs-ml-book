@@ -24,7 +24,7 @@
     "href": "chapters/01_ch01.html",
     "title": "Chapter 1: Inference vs. Prediction",
     "section": "",
-    "text": "Motivation\nEvery data model is a guess at the truth. Some guess by assuming how data is generated. Others just try to predict what comes next.",
+    "text": "Motivation\nModeling data is a guess at the truth. Some guess by assuming how the data is generated [Statistics]. Others just try to predict what comes next [Data Science]. (Me!)\nThe trick to being a scientist is to be open to using a wide varietyof tools. (Leo Breiman, Statistical Modeling: The Two Cultures - 2001)",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Chapter 1: Inference vs. Prediction</span>"
     ]
