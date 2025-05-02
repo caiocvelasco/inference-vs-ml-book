@@ -87,3 +87,8 @@ Make sure to inclue a .gitignore file with the following information:
 
 * cd your_repo_folder
 * source .venv/Scripts/activate                   (This will activate your environment)
+
+### Publish your Quarto document as a GitHub Pages (gh-pages) site
+
+* `quarto render`
+* `quarto publish gh-pages`
